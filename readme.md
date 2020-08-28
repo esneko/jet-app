@@ -1,4 +1,4 @@
-# Oracle JET Demo App
+# Oracle JET Web App
 
 ## Web Components
 
@@ -23,6 +23,17 @@ const myValue = myInputText.value
 myInputText.value = "esneko"
 ```
 
+## Custom events
+
+For example:
+- oj-list-view
+
+Applications can register an `itemAction` event which will be fired when user performs an action gesture on an item while `ListView` is in navigation mode. The action gestures include:
+- User clicks anywhere in an item
+- User taps anywhere in an item
+- User pressed enter key while an item or its content has focus
+
 ## Additional resourses
 
-- [Oracle JET Web Components](https://docs.oracle.com/en/middleware/developer-tools/jet/9/develop/web-components.html)
+- [Developing Applications with Oracle JET - Web Components](https://docs.oracle.com/en/middleware/developer-tools/jet/9.1/develop/web-components.html)
+- [Oracle JET Web Components](https://www.oracle.com/webfolder/technetwork/jet/jsdocs/CustomElementOverview.html)
